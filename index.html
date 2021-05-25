@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Uygulaması || Mehmet Sait Işık</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Pomodoro Uygulaması</h1>
+        <p class="ad">Mehmet Sait Işık</p>
+        <div class="row">
+        <p id="work" class="col-4">Geçen Süre</p>
+        <p id="break" class="col-4">Yapılan Oturum Sayısı</p>
+        <p id="cycles" class="col-4">Mola</p>
+        </div>
+        <!---work timer-->
+        <div class="row">
+        <div id="work-timer" class="timer col-4">
+            <p id="w_minutes">25</p><p>:</p><p id="w_seconds">00</p>
+        </div>
+        <div class="col-4">
+        <p id="counter" class="timer">0</p>
+        </div>
+        <!--Break timer-->
+        <div id="break-timer" class="timer col-4">
+            <p id="b_minutes">10</p><p>:</p><p id="b_seconds">00</p>
+        </div>
+        </div>
+        <div class="row btn-cont">
+        <button id="start" class="btn col-3">Başlat</button>
+        <button id="reset" class="btn col-3">Yeniden Başlat</button>
+        <button id="stop" class="btn col-3">Durdur</button>
+    </div>
+    <img src="https://i.gifer.com/origin/ac/ac1a6fc199d663a1d844f14b55f7584d_w200.gif" alt="Pomodoro Uygulaması">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
